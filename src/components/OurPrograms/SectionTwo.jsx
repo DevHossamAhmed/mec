@@ -136,12 +136,12 @@ const SectionTwo = () => {
                 </div>
             </div>
             </SwiperSlide>
-        <button className='absolute top-[50%] group right-[-12px] duration-500 button-next-slide z-50  text-white font-bold w-[40px] text-[35px] items-center justify-center text-center m-auto h-[40px] rounded-full bg-gradient-to-l ml-3 mr-3 from-[#471fbc] via-[#6137ad] to-[#81559c]'>
-            <MdNavigateNext />
-        </button>
-        <button className='absolute top-[50%] group left-[-10px] duration-500 button-prev-slide z-50 text-white  px-1 font-bold w-[40px] text-[35px] items-center justify-center text-center m-auto h-[40px] rounded-full bg-gradient-to-l ml-3 mr-3 from-[#471fbc] via-[#6137ad] to-[#81559c]'>
-            <MdNavigateBefore/>
-        </button>
+            <button className='absolute top-[50%] group right-[-10px] duration-500 button-next-slide z-50  text-white font-bold w-[40px] text-[35px] items-center justify-center text-center m-auto h-[40px] rounded-full bg-gradient-to-l ml-3 mr-3 from-[#471fbc] via-[#6137ad] to-[#81559c]'>
+                <MdNavigateNext />
+            </button>
+            <button className='absolute top-[50%] group left-[7px] duration-500 button-prev-slide z-50 text-white  px-1 font-bold w-[40px] text-[35px] items-center justify-center text-center m-auto h-[40px] rounded-full bg-gradient-to-l ml-3 mr-3 from-[#471fbc] via-[#6137ad] to-[#81559c]'>
+                <MdNavigateBefore/>
+            </button>
         </Swiper>
     </div>
   )
