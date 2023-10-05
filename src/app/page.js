@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer/Page'
 import Instructors from '@/components/Instructors/Page'
 import OurPrograms from '@/components/OurPrograms/Page'
 import Vedios from '@/components/Vedios/Page'
@@ -15,6 +16,7 @@ export default function Home() {
         <OurPrograms/>
         <Vedios/>
         <Instructors/>
+        <Footer/>
       </main>
 
   )
