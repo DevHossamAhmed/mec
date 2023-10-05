@@ -1,7 +1,11 @@
+import Header from '@/components/Header/Page'
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Cairo } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const cairo = Cairo({ 
+  subsets: ['arabic'], 
+  weight: ['400', '500','600', '700', '800', '900'],
+})
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,7 +15,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={cairo.className}>
+        <Header/>
+        {children}
+      </body>
     </html>
   )
 }
