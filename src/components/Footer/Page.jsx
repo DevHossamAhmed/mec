@@ -52,7 +52,7 @@ const Footer = () => {
                 }}
             >
                 <SwiperSlide>
-                    <div className='flex rounded-full bg-[#382a6b] text-start w-[250px] h-[160px]'>
+                    <div className='flex rounded-full bg-[#2a2b3c] text-start w-[250px] h-[160px]'>
                         <LiaCertificateSolid className=' text-[150px] text-[#7045a5]'/>
                         <div className=''>
                         <h1 className='block text-white pr-[5px]  pl-[5px] text-[16px] font-bold 
@@ -67,7 +67,7 @@ const Footer = () => {
                 </SwiperSlide>
                 
                 <SwiperSlide>
-                    <div className='flex rounded-full bg-[#382a6b] text-start w-[250px] h-[160px]'>
+                    <div className='flex rounded-full bg-[#2a2b3c] text-start w-[250px] h-[160px]'>
                         <LiaCertificateSolid className=' text-[150px] text-[#7045a5]'/>
                         <div className=''>
                         <h1 className='block text-white pr-[5px]  pl-[5px] text-[16px] font-bold 
@@ -81,7 +81,7 @@ const Footer = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='flex rounded-full bg-[#382a6b] text-start w-[250px] h-[160px]'>
+                    <div className='flex rounded-full bg-[#2a2b3c] text-start w-[250px] h-[160px]'>
                         <LiaCertificateSolid className=' text-[150px] text-[#7045a5]'/>
                         <div className=''>
                         <h1 className='block text-white pr-[5px]  pl-[5px] text-[16px] font-bold 
@@ -95,7 +95,7 @@ const Footer = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='flex rounded-full bg-[#382a6b] text-start w-[250px] h-[160px]'>
+                    <div className='flex rounded-full bg-[#2a2b3c] text-start w-[250px] h-[160px]'>
                         <LiaCertificateSolid className=' text-[150px] text-[#7045a5]'/>
                         <div className=''>
                         <h1 className='block text-white pr-[5px]  pl-[5px] text-[16px] font-bold 
@@ -109,7 +109,7 @@ const Footer = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='flex rounded-full bg-[#382a6b] text-start w-[250px] h-[160px]'>
+                    <div className='flex rounded-full bg-[#2a2b3c] text-start w-[250px] h-[160px]'>
                         <LiaCertificateSolid className=' text-[150px] text-[#7045a5]'/>
                         <div className=''>
                         <h1 className='block text-white pr-[5px]  pl-[5px] text-[16px] font-bold 

@@ -7,7 +7,7 @@ import SectionFour from './SectionFour'
 const OurPrograms = () => {
   return (
     <div className='w-full bg-[#191a25]  '>
-      <div className='container m-auto items-center justify-center pt-[50px] mb-[25px] relative'>
+      <div className=' container m-auto items-center justify-center pt-[50px] mb-[25px] relative'>
         <h1 className='text-white  text-[30px] font-semibold text-center  mb-[25px] '>برامجنا التدريبية</h1>
         <p className='text-[#a0a3a7] text-[20px] text-center '>طور مهاراتك الذاتية من خلال برامجنا المهنية التي تغطي كل ما تحتاجه</p>
         <SectionOne/>

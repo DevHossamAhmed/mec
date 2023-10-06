@@ -22,7 +22,7 @@ import Img5 from '../../assets/images/img-5.png'
 
 const SectionOne = () => {
   return (
-    <div className='pt-[35px]'>
+    <div className='pt-[35px] '>
          <div className='flex justify-between mb-[15px]'>
             <h1 className='text-white text-[20px] font-bold'>برامج الزمالة المهنية </h1>
 
@@ -37,7 +37,7 @@ const SectionOne = () => {
             }}
             freeMode={true}
             grabCursor={true}
-            className='mySwiper relative group'
+            className='mySwiper  group'
 
             breakpoints={{
                 0:{
@@ -136,10 +136,10 @@ const SectionOne = () => {
                 </div>
             </div>
             </SwiperSlide>
-            <button className='absolute top-[50%] group right-[-10px] duration-500 button-next-slide z-50  text-white font-bold w-[40px] text-[35px] items-center justify-center text-center m-auto h-[40px] rounded-full bg-gradient-to-l ml-3 mr-3 from-[#471fbc] via-[#6137ad] to-[#81559c]'>
+            <button className='absolute shadow-md top-[50%]  group right-[-10px] duration-500 button-next-slide z-50  text-white font-bold w-[40px] text-[35px] items-center justify-center text-center m-auto h-[40px] rounded-full bg-gradient-to-l ml-3 mr-3 from-[#471fbc] via-[#6137ad] to-[#81559c]'>
                 <MdNavigateNext />
             </button>
-            <button className='absolute top-[50%] group left-[7px] duration-500 button-prev-slide z-50 text-white  px-1 font-bold w-[40px] text-[35px] items-center justify-center text-center m-auto h-[40px] rounded-full bg-gradient-to-l ml-3 mr-3 from-[#471fbc] via-[#6137ad] to-[#81559c]'>
+            <button className='absolute shadow-md top-[50%] group left-[7px] duration-500 button-prev-slide z-50 text-white  px-1 font-bold w-[40px] text-[35px] items-center justify-center text-center m-auto h-[40px] rounded-full bg-gradient-to-l ml-3 mr-3 from-[#471fbc] via-[#6137ad] to-[#81559c]'>
                 <MdNavigateBefore/>
             </button>
         </Swiper>
