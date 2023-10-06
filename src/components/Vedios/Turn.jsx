@@ -76,7 +76,7 @@ const Turns = () => {
                 <Image src={Img2} alt='Img1' />
                 <h1 className='text-[#a0a3a7] pr-[6px] pb-[15px] pl-[5px] text-[16px] font-bold pt-[10px]'>    المبادئ والاساسيات التحليل الفني</h1>
                 <p className='text-white pr-[5px] text-[16px] '>برامج السوق المالية</p>
-                <div className='flex w-full text-white justify-between pr-[5px] pl-[5px] text-[15px] font-semibold pt-[10px]'>
+                <div className='flex w-full text-white pb-[15px] justify-between pr-[5px] pl-[5px] text-[15px] font-semibold pt-[10px]'>
                     <h2>ر.س <span className='font-bold'>1500</span></h2>
                     <h2 className='flex items-center'>15 ابريل
                         <BiCalendar/>
