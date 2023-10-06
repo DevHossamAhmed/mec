@@ -25,7 +25,7 @@ const Test = () => {
     const [nav , setNav] = useState(false);
   
     const desktopMode = useMediaQuery({
-      query:'(min-width:1200px)',
+      query:'(min-width:1900px)',
     });
   
     useEffect(()=>{
@@ -51,7 +51,7 @@ const Test = () => {
 
   return (
     <header className=
-       {`${ header ? ' shadow-md py-2' : ' shadow-none py-4'} bg-[#1b1730]  py-4 shadow-md fixed w-full max-w-[1800px] mx-auto z-50 transition-all duration-300`}
+       {`${ header ? ' shadow-md py-2' : ' shadow-none py-4'} bg-[#1b1730]  py-4 shadow-md fixed w-full max-w-[2500px] m-auto z-50 transition-all duration-300`}
     >
         <div className="xl:container mx-auto flex flex-col xl:flex-row xl:items-center
             xl:justify-between

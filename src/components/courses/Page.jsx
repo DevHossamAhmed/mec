@@ -19,7 +19,7 @@ const Courses = () => {
                 <MdKeyboardDoubleArrowLeft/>
             </h2>
         </div>
-        <div className='  grid container px-3 xl:px-0 m-auto gap-4 grid-cols-1  md:grid-cols-2 lg:grid-cols-6 xl:flex-row'>
+        <div className='  grid container px-3 xl:px-0 m-auto gap-6 grid-cols-1  md:grid-cols-2 lg:grid-cols-6 xl:flex-row'>
             <div className='bg-[#191a25] w-[100%] h-[440px] lg:h-[320px] mb-[25px] '>
                 <Image src={Img1} alt='Img1' />
                 <h1 className='text-[#a0a3a7] pr-[15px] pl-[15px] pb-[10px] text-[14px] font-bold pt-[15px]'>حوكمة الشركات من المتخصص الاسلامي</h1>
