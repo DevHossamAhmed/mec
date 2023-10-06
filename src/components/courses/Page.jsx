@@ -35,7 +35,7 @@ const Courses = () => {
                 <Image src={Img2} alt='Img1' />
                 <h1 className='text-[#a0a3a7] pr-[15px] pl-[15px] pb-[15px] text-[14px] font-bold pt-[10px]'>شهادة اسلامية معتمد متخصص</h1>
                 <p className='text-white pr-[15px] pl-[15px] text-[16px] '>برامج المصرفية الاسلامية</p>
-                <div className='flex w-full bottom-1 text-white pb-[15px] justify-between pr-[15px] pl-[15px] text-[15px] font-semibold pt-[10px]'>
+                <div className='flex w-full bottom-1 text-white pb-[15px] justify-between pr-[15px]  pl-[15px] text-[15px] font-semibold pt-[10px]'>
                     <h2>ر.س <span className='font-bold'>4200</span></h2>
                     <h2 className='flex items-center gap-[8px]'>15 ابريل
                         <BiCalendar/>
@@ -46,7 +46,7 @@ const Courses = () => {
                 <Image src={Img3} alt='Img1' />
                 <h1 className='text-[#a0a3a7] pr-[15px] pl-[15px] pb-[15px] text-[14px] font-bold pt-[10px]'>موجات إليوت</h1>
                 <p className='text-white pr-[15px] pl-[15px] text-[16px] '>اساليب موجات إليوت</p>
-                <div className='flex w-full mt-[22px] text-white pb-[15px] justify-between pr-[15px] pl-[15px] text-[15px] font-semibold pt-[10px]'>
+                <div className='flex w-full mt-[22px] text-white pb-[15px] justify-between pr-[15px] pl-[15px] text-[15px] font-semibold '>
                     <h2>ر.س <span className='font-bold'>4200</span></h2>
                     <h2 className='flex items-center gap-[8px]'>15 ابريل
                         <BiCalendar/>
@@ -68,7 +68,7 @@ const Courses = () => {
                 <Image src={Img5} alt='Img1' />
                 <h1 className='text-[#a0a3a7] pr-[15px] pl-[15px] pb-[15px] text-[14px] font-bold pt-[10px]'>  محلل فني معتمد  </h1>
                 <p className='text-white pr-[15px] pl-[15px] text-[16px] '>التحليل الفني  </p>
-                <div className='flex w-full mt-[22px] text-white pb-[15px] justify-between pr-[15px] pl-[15px] text-[15px] font-semibold pt-[10px]'>
+                <div className='flex w-full mt-[22px] text-white pb-[15px] justify-between pr-[15px] pl-[15px] text-[15px] font-semibold '>
                     <h2>ر.س <span className='font-bold'>1500</span></h2>
                     <h2 className='flex items-center gap-[8px]'>15 ابريل
                         <BiCalendar/>
@@ -79,7 +79,7 @@ const Courses = () => {
                 <Image src={Img3} alt='Img1' />
                 <h1 className='text-[#a0a3a7] pr-[15px] pl-[15px] pb-[15px]  text-[14px] font-bold pt-[10px]'>  حكومة الشركات  </h1>
                 <p className='text-white pr-[15px] pl-[15px] text-[16px] '>برامج السوق المالية</p>
-                <div className='flex w-full mt-[22px] text-white pb-[15px] justify-between pr-[15px] pl-[15px] text-[15px] font-semibold pt-[10px]'>
+                <div className='flex w-full mt-[22px] text-white pb-[15px] justify-between pr-[15px] pl-[15px] text-[15px] font-semibold '>
                     <h2>ر.س <span className='font-bold'>1500</span></h2>
                     <h2 className='flex items-center gap-[8px]'>15 ابريل
                         <BiCalendar/>
