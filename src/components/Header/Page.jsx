@@ -20,7 +20,7 @@ import { useMediaQuery } from "react-responsive";
 
 
 // Icons
-import { BiMenuAltRight , BiX} from "react-icons/bi"
+import { BiMenuAltLeft , BiX} from "react-icons/bi"
 import { IoIosLogIn } from 'react-icons/io'
 import { CgUserAdd } from 'react-icons/cg'
 import { MdLanguage } from 'react-icons/md'
@@ -60,7 +60,7 @@ const Header = () => {
     bg-[#1b1730]  
   `}>
       <div className="flex mx-auto xl:container flex-col xl:flex-row xl:items-center xl:justify-between ">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center px-4 justify-between">
           {/* logo */}
           <Link
             to="home"
@@ -73,13 +73,13 @@ const Header = () => {
       
           {/* nav open menu */}
           <div onClick={()=>setNav(!nav)} className="cursor-pointer xl:hidden">
-            {nav ? (<BiX className="text-2xl text-white"/>) : (<BiMenuAltRight className="text-2xl text-white"/>)}
+            {nav ? (<BiX className="text-2xl text-white"/>) : (<BiMenuAltLeft className="text-2xl text-white"/>)}
           </div>
         </div>
         {/* nav */}
         <nav className={`${
           nav ? 'max-h-max py-8 px-4 xl:py-0 xl:px-0' : 'max-h-0 xl:max-h-max'
-        } flex flex-col xl:flex-row xl:gap-3 mr-[-70px] bg-[#1b1730] justify-between w-[650px] dark:text-white  overflow-hidden items-center  font-medium leading-10 text-[18px]  
+        } flex flex-col xl:flex-row xl:gap-3 mr-[-70px] bg-[#1b1730] justify-between w-[650px] text-white  overflow-hidden items-center  font-medium leading-10 text-[18px]  
         `}>
 
           <div className="xl:hidden flex  justify-center items-center text-center 
