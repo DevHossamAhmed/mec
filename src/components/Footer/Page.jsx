@@ -35,7 +35,7 @@ const Footer = () => {
                 breakpoints={{
                     0:{
                         slidesPerView:1.25 ,
-                        spaceBetween:10,
+                    spaceBetween:10,
                     },
                     480:{
                         slidesPerView:2 ,
