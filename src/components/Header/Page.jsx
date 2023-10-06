@@ -32,7 +32,7 @@ const Header = () => {
   const [nav , setNav] = useState(false);
 
   const desktopMode = useMediaQuery({
-    query:'(min-width:1300px)',
+    query:'(min-width:1200px)',
   });
 
   useEffect(()=>{
@@ -59,8 +59,8 @@ const Header = () => {
     <header className={`${ header ? ' shadow-md py-2' : ' shadow-none py-4'} flex fixed w-full z-50 
     bg-[#1b1730]  
   `}>
-      <div className="flex mx-auto xl:container flex-col xl:flex-row xl:items-center xl:justify-between ">
-        <div className="flex items-center px-4 justify-between">
+      <div className="flex  m-auto container flex-col xl:flex-row xl:items-center xl:justify-between ">
+        <div className="flex  text-center items-center px-7 justify-between ">
           {/* logo */}
           <Link
             to="home"
@@ -70,16 +70,16 @@ const Header = () => {
           >
             <Image src={Logo} alt="logo" width={120} height={50}/>
           </Link>
-      
           {/* nav open menu */}
           <div onClick={()=>setNav(!nav)} className="cursor-pointer xl:hidden">
             {nav ? (<BiX className="text-2xl text-white"/>) : (<BiMenuAltLeft className="text-2xl text-white"/>)}
           </div>
+      
         </div>
         {/* nav */}
         <nav className={`${
           nav ? 'max-h-max py-8 px-4 xl:py-0 xl:px-0' : 'max-h-0 xl:max-h-max'
-        } flex flex-col xl:flex-row xl:gap-3 mr-[-70px] bg-[#1b1730] justify-between w-[650px] text-white  overflow-hidden items-center  font-medium leading-10 text-[18px]  
+        } flex flex-col xl:flex-row xl:gap-3  bg-[#1b1730] justify-between w-[650px] text-white  overflow-hidden items-center  font-medium leading-10 text-[18px]  
         `}>
 
           <div className="xl:hidden flex  justify-center items-center text-center 
