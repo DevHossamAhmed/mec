@@ -39,7 +39,7 @@ const VedioCard = () => {
 
             breakpoints={{
                 0:{
-                    slidesPerView:1.25 ,
+                    slidesPerView:1.5 ,
                     spaceBetween:10,
                 },
                 480:{
