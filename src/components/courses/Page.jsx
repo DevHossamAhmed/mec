@@ -19,8 +19,8 @@ const Courses = () => {
                 <MdKeyboardDoubleArrowLeft/>
             </h2>
         </div>
-        <div className='  grid container px-3 xl:px-0 m-auto gap-2 grid-cols-1  md:grid-cols-2 lg:grid-cols-6 xl:flex-row'>
-            <div className='bg-[#191a25] w-[100%] h-[440px] lg:h-[320px] mb-[15px] '>
+        <div className='  grid container px-3 xl:px-0 m-auto gap-4 grid-cols-1  md:grid-cols-2 lg:grid-cols-6 xl:flex-row'>
+            <div className='bg-[#191a25] w-[100%] h-[440px] lg:h-[320px] mb-[25px] '>
                 <Image src={Img1} alt='Img1' />
                 <h1 className='text-[#a0a3a7] pr-[15px] pl-[15px] pb-[10px] text-[14px] font-bold pt-[15px]'>حوكمة الشركات من المتخصص الاسلامي</h1>
                 <p className='text-white pr-[15px] pl-[15px] text-[16px] pb-[10px]'>برامج السوق المالية</p>
@@ -31,7 +31,7 @@ const Courses = () => {
                     </h2>
                 </div>
             </div>
-            <div className='bg-[#191a25] w-[100%] h-[440px] lg:h-[320px] mb-[15px]'>
+            <div className='bg-[#191a25] w-[100%] h-[440px] lg:h-[320px] mb-[25px]'>
                 <Image src={Img2} alt='Img1' />
                 <h1 className='text-[#a0a3a7] pr-[15px] pl-[15px] pb-[15px] text-[14px] font-bold pt-[10px]'>شهادة اسلامية معتمد متخصص</h1>
                 <p className='text-white pr-[15px] pl-[15px] text-[16px] pb-[10px] '>برامج المصرفية الاسلامية</p>
@@ -42,7 +42,7 @@ const Courses = () => {
                     </h2>
                 </div>
             </div>
-            <div className='bg-[#191a25] w-[100%] h-[440px] lg:h-[320px] mb-[15px]'>
+            <div className='bg-[#191a25] w-[100%] h-[440px] lg:h-[320px] mb-[25px]'>
                 <Image src={Img3} alt='Img1' />
                 <h1 className='text-[#a0a3a7] pr-[15px] pl-[15px] pb-[20px] text-[14px] font-bold pt-[10px]'>موجات إليوت</h1>
                 <p className='text-white pr-[15px] pl-[15px] text-[16px] pb-[10px]'>اساليب موجات إليوت</p>
@@ -53,7 +53,7 @@ const Courses = () => {
                     </h2>
                 </div>
             </div>
-            <div className='bg-[#191a25] w-[100%] h-[440px] lg:h-[320px] mb-[15px]'>
+            <div className='bg-[#191a25] w-[100%] h-[440px] lg:h-[320px] mb-[25px]'>
                 <Image src={Img4} alt='Img1' />
                 <h1 className='text-[#a0a3a7] pr-[15px] pl-[15px] pb-[15px] text-[14px] font-bold pt-[10px]'>    المبادئ والاساسيات التحليل الفني</h1>
                 <p className='text-white pr-[15px] pl-[15px] text-[16px] pb-[5px] '>برامج السوق المالية</p>
@@ -64,7 +64,7 @@ const Courses = () => {
                     </h2>
                 </div>
             </div>
-            <div className='bg-[#191a25] w-[100%] h-[440px] lg:h-[320px]  mb-[15px]'>
+            <div className='bg-[#191a25] w-[100%] h-[440px] lg:h-[320px]  mb-[25px]'>
                 <Image src={Img5} alt='Img1' />
                 <h1 className='text-[#a0a3a7] pr-[15px] pl-[15px] pb-[15px] text-[14px] font-bold pt-[10px]'>  محلل فني معتمد  </h1>
                 <p className='text-white pr-[15px] pl-[15px] text-[16px] pb-[10px]'>التحليل الفني  </p>
@@ -75,7 +75,7 @@ const Courses = () => {
                     </h2>
                 </div>
             </div>
-            <div className='bg-[#191a25] w-[100%] h-[440px] lg:h-[320px] mb-[15px]'>
+            <div className='bg-[#191a25] w-[100%] h-[440px] lg:h-[320px] mb-[25px]'>
                 <Image src={Img3} alt='Img1' />
                 <h1 className='text-[#a0a3a7] pr-[15px] pl-[15px] pb-[15px]  text-[14px] font-bold pt-[10px]'>  حكومة الشركات  </h1>
                 <p className='text-white pr-[15px] pl-[15px] text-[16px] pb-[10px] '>برامج السوق المالية</p>
