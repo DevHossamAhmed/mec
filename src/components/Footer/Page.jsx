@@ -20,7 +20,7 @@ import { Link } from 'react-scroll';
 const Footer = () => {
   return (
     <div className='w-full bg-[#1f2033] relative'>
-        <button className="absolute text-white border-white border-2 w-[120px] mt-[-20px] left-[20px] h-[40px] bg-gradient-to-l ml-3 mr-3 from-[#471fbc] via-[#6137ad] to-[#81559c] rounded-3xl">اتصل بنا </button>
+        <button className="absolute text-white border-white border-2 w-[120px] mt-[-20px] left-[110px] h-[40px] bg-gradient-to-l ml-3 mr-3 from-[#471fbc] via-[#6137ad] to-[#81559c] rounded-3xl">اتصل بنا </button>
         <h1 className='text-white pt-[80px] text-center text-[30px] font-bold'>جوائزنا</h1>
         <div className='flex container m-auto pt-[60px]'>
             <Swiper
@@ -42,7 +42,7 @@ const Footer = () => {
                         spaceBetween:15,
                     },
                     768:{
-                        slidesPerView:2 ,
+                        slidesPerView:2.5 ,
                         spaceBetween:15,
                     },
                     1280:{
@@ -51,7 +51,7 @@ const Footer = () => {
                     }
                 }}
             >
-                <SwiperSlide>
+                <SwiperSlide className='px-3'>
                     <div className='flex rounded-full bg-[#2a2b3c] text-start w-[250px] h-[160px]'>
                         <LiaCertificateSolid className=' text-[150px] text-[#7045a5]'/>
                         <div className=''>
@@ -81,7 +81,7 @@ const Footer = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='flex rounded-full bg-[#2a2b3c] text-start w-[250px] h-[160px]'>
+                    <div className='flex rounded-full  bg-[#2a2b3c] text-start w-[250px] h-[160px]'>
                         <LiaCertificateSolid className=' text-[150px] text-[#7045a5]'/>
                         <div className=''>
                         <h1 className='block text-white pr-[5px]  pl-[5px] text-[16px] font-bold 
@@ -126,8 +126,8 @@ const Footer = () => {
 
             </Swiper>
         </div>
-        <div className='flex container px-8 m-auto pt-[60px] justify-between'>
-                <div className='flex gap-8 pb-[20px] cursor-pointer'>
+        <div className='flex flex-col xl:flex-row items-center container px-8 m-auto pt-[60px] justify-between'>
+                <div className='flex gap-3 items-center text-[11px] md:text-[20px] text-center pb-[20px] cursor-pointer'>
                     <Link className='text-white cursor-pointer'>من نحن</Link>
                     <Link className='text-white cursor-pointer'>اتصل بنا</Link>
                     <Link className='text-[#cc3f15] cursor-pointer'>تحذير المخاطرة</Link>

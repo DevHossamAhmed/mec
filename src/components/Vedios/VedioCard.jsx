@@ -23,8 +23,8 @@ import Img5 from '../../assets/images/img-5.png'
 const VedioCard = () => {
   return (
     <div className='pt-[35px] mb-[50px]'>
-         <div className='flex justify-between mb-[15px]'>
-            <h1 className='text-white text-[20px] font-bold'>الفيديوهات     </h1>
+         <div className='flex px-3 justify-between mb-[15px]'>
+            <h1 className='text-white text-[18px] xl:text-[20px] font-bold'>الفيديوهات     </h1>
 
 
         </div>
@@ -47,7 +47,7 @@ const VedioCard = () => {
                     spaceBetween:15,
                 },
                 768:{
-                    slidesPerView:2 ,
+                    slidesPerView:2.5 ,
                     spaceBetween:15,
                 },
                 1280:{
@@ -56,7 +56,7 @@ const VedioCard = () => {
                 }
             }}
         >
-            <SwiperSlide>
+            <SwiperSlide className='px-3'>
             <div className='bg-[#191a25] w-[250px] h-[200px]'>
             <iframe width="250" height="150" src="https://www.youtube.com/embed/rMmYdn7fBD4" title="أكاديمية مصرف الراجحي |  برنامج تأهيل الخريجين" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
                 <h1 className='text-white pr-[5px] pl-[5px] text-[14px] font-bold pt-[10px]'>    دورة الراجحي   </h1>
@@ -77,7 +77,7 @@ const VedioCard = () => {
             <SwiperSlide>
             <div className='bg-[#191a25] w-[250px] h-[200px]'>
             <iframe width="250" height="150" src="https://www.youtube.com/embed/_tY0jQKI0PI" title="الدكتور / محمد الفاضل رئيس مجلس إدارة شركة خبراء المال في ضيافة برنامج الاقتصاد" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen/>
-                <h1 className='text-white pr-[5px] pl-[5px] text-[14px] font-bold pt-[10px]'>    لقاء خاص مع الدكتور محمد الفاضل  </h1>
+                <h1 className='text-white pr-[15px] pl-[15px] text-[14px] font-bold pt-[10px]'>    لقاء خاص مع الدكتور محمد الفاضل  </h1>
             </div>
             </SwiperSlide>
             <SwiperSlide>

@@ -23,6 +23,7 @@ import { useMediaQuery } from "react-responsive";
 import { BiMenuAltRight , BiX} from "react-icons/bi"
 import { IoIosLogIn } from 'react-icons/io'
 import { CgUserAdd } from 'react-icons/cg'
+import { MdLanguage } from 'react-icons/md'
 
 
 const Header = () => {
@@ -59,7 +60,7 @@ const Header = () => {
     bg-[#1b1730]  
   `}>
       <div className="flex mx-auto xl:container flex-col xl:flex-row xl:items-center xl:justify-between ">
-        <div className="flex items-center ">
+        <div className="flex items-center justify-between">
           {/* logo */}
           <Link
             to="home"
@@ -78,8 +79,21 @@ const Header = () => {
         {/* nav */}
         <nav className={`${
           nav ? 'max-h-max py-8 px-4 xl:py-0 xl:px-0' : 'max-h-0 xl:max-h-max'
-        } flex flex-col xl:flex-row xl:gap-3 mr-[-70px] bg-[#1b1730] justify-between w-[650px] dark:text-white  overflow-hidden items-center  font-medium
+        } flex flex-col xl:flex-row xl:gap-3 mr-[-70px] bg-[#1b1730] justify-between w-[650px] dark:text-white  overflow-hidden items-center  font-medium leading-10 text-[18px]  
         `}>
+
+          <div className="xl:hidden flex  justify-center items-center text-center 
+          border-b-[1px] border-b-black dark:border-b-slate-100  h-[70px]">
+          <button className="underline flex justify-center text-primary items-center gap-1 ">
+            تسجيل الدخول
+            <IoIosLogIn/>
+          </button> 
+          <span className="w-[1px] h-[25px] bg-black dark:bg-slate-100 mx-7 rounded-md"></span>
+          <button className="underline flex justify-center items-center gap-1 text-primary">
+            عضوية جديدة
+            <CgUserAdd/>
+          </button> 
+          </div>
 
           <Link
             to="courses"
@@ -117,8 +131,18 @@ const Header = () => {
             spy={true}
             className="cursor-pointer hover:text-violet-600"
           >اتصل بنا</Link>
+
+      <div className="xl:hidden flex  justify-center items-center text-center 
+          border-t-[1px]  border-b-black dark:border-b-slate-100  h-[70px]">
+          <button className="underline flex justify-center text-primary items-center gap-1 ">
+          ENGLISH
+          <MdLanguage/>
+          </button> 
+         
+          </div>
+
         </nav>
-        <div className="flex text-white font-medium  gap-5 justify-between items-center  md:hidden xl:block">
+        <div className="flex text-white font-medium  gap-5 justify-between items-center  hidden xl:block">
         <Link
             to="contactus"
             smooth={desktopMode}
