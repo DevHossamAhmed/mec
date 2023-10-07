@@ -217,10 +217,10 @@ const Courses = () => {
 
                 </div>
             </SwiperSlide>
-            <button className='absolute hidden xl:block top-[50%] group right-0 duration-500 button-next-slide z-50  text-white font-bold w-[40px] text-[35px] items-center justify-center text-center m-auto h-[40px] rounded-full bg-gradient-to-l ml-3 mr-3 from-[#471fbc] via-[#6137ad] to-[#81559c]'>
+            <button className='absolute hidden xl:block top-[50%] group right-[2px] duration-500 button-next-slide z-50  text-white font-bold w-[40px] text-[35px] items-center justify-center text-center m-auto h-[40px] rounded-full bg-gradient-to-l ml-3 mr-3 from-[#471fbc] via-[#6137ad] to-[#81559c]'>
                 <MdNavigateNext />
             </button>
-            <button className='absolute hidden xl:block top-[50%] group left-[7px] duration-500 button-prev-slide z-50 text-white  px-1 font-bold w-[40px] text-[35px] items-center justify-center text-center m-auto h-[40px] rounded-full bg-gradient-to-l ml-3 mr-3 from-[#471fbc] via-[#6137ad] to-[#81559c]'>
+            <button className='absolute hidden xl:block top-[50%] group left-[-8px] duration-500 button-prev-slide z-50 text-white  px-1 font-bold w-[40px] text-[35px] items-center justify-center text-center m-auto h-[40px] rounded-full bg-gradient-to-l ml-3 mr-3 from-[#471fbc] via-[#6137ad] to-[#81559c]'>
                 <MdNavigateBefore/>
             </button>
         </Swiper>
