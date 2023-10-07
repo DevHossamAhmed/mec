@@ -8,7 +8,7 @@ const Hero = () => {
             <div className='text-center xl:text-right items-center justify-center m-auto'>
                 <h1 className='text-[30px] pt-10 xl:pt-0 pb-[18px] xl:text-[40px] font-bold'><span className='text-[#84589a] xl:text-[40px] font-bold text-[40px] '>أكبر</span> مكان </h1>
                 <p className='text-[25px] xl:text-[30px] pb-[15px] font-bold'>
-                    لتعلم <span className='text-[#84589a]'>البرامج المالية الاحترافية المعتمدة</span>
+                    لتعلم <span className='text-[#84589a]'>البرامج المالية والاستثمارية والمهنية المعتمدة   </span>
                 </p>
                 <Search/>
                 <br/>

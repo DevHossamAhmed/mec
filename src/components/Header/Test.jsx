@@ -4,7 +4,7 @@ import { useContext , useEffect , useState } from "react";
 
 // next image
 import Image from 'next/image';
-import Logo from '../../assets/images/Logo.webp';
+import Logo from '../../assets/images/logo.png';
 
 // icons
 import { BiMenuAltLeft , BiX} from "react-icons/bi"
@@ -95,19 +95,19 @@ const Test = () => {
                     smooth={desktopMode}
                     spy={true}
                     className="cursor-pointer pl-[10px] hover:text-violet-600 "
-                >المعهد التدريبي</Link>
+                >الدورات </Link>
                 <Link
                     to="e-training"
                     smooth={desktopMode}
                     spy={true}
                     className="cursor-pointer hover:text-violet-600"
-                >الاكاديمية التعليمية</Link>
+                >الدبلومات </Link>
                 <Link
                     to="seminars"
                     smooth={desktopMode}
                     spy={true}
                     className="cursor-pointer hover:text-violet-600"
-                >الديوانية </Link>
+                >التدريب الالكتروني </Link>
                 <Link
                     to="news"
                     smooth={desktopMode}
