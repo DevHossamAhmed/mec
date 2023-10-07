@@ -50,7 +50,7 @@ const InstName = () => {
                 }
             }}
         >
-            <SwiperSlide>
+            <SwiperSlide className='px-3 xl:px-0'>
             <div className='bg-[#382a6b] text-center py-7 w-[250px] h-[250px]'>
                 <Image src={Img1} alt='Img1'  className='imgcard m-auto  '/>
                 <h1 className='text-white pr-[5px] pl-[5px] text-[16px] font-bold pt-[10px]'> PROF.AHMED IBRAHIM</h1>

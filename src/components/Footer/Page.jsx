@@ -51,7 +51,7 @@ const Footer = () => {
                     }
                 }}
             >
-                <SwiperSlide className='px-3'>
+                <SwiperSlide className='px-3 xl:px-0'>
                     <div className='flex rounded-full bg-[#2a2b3c] text-start w-[250px] h-[160px]'>
                         <LiaCertificateSolid className=' text-[150px] text-[#7045a5]'/>
                         <div className=''>

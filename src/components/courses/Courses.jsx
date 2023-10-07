@@ -67,7 +67,7 @@ const Courses = () => {
                 }
             }}
         >
-            <SwiperSlide className='px-2'>
+            <SwiperSlide >
                 <div className='bg-[#191a25] w-[300px] relative'>
                     <Image src={Img1} alt='Img1' className='imagcor' />
                     <div className='absolute top-[165px] right-[35%] flex m-auto justify-center'>

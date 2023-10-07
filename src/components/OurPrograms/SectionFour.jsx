@@ -23,7 +23,7 @@ import Img5 from '../../assets/images/img-5.png'
 const SectionFour = () => {
   return (
     <div className='pt-[35px]'>
-         <div className='flex px-3 justify-between mb-[15px]'>
+         <div className='flex px-3 xl:px-0 justify-between mb-[15px]'>
             <h1 className='text-white text-[16px] xl:text-[20px] font-bold'>برامج المصرفية الاسلامية  </h1>
 
             <h2 className='flex items-center justify-end font-bold gap-1 text-[#f0b90b] '>عرض المزيد 
@@ -58,7 +58,7 @@ const SectionFour = () => {
                 }
             }}
         >
-            <SwiperSlide className='px-3'>
+            <SwiperSlide className='px-3 xl:px-0'>
             <div className='bg-[#191a25] w-[250px] '>
                 <Image src={Img1} alt='Img1' />
                 <h1 className='text-[#a0a3a7] pr-[15px] pl-[15px] pb-[15px]  text-[16px] font-bold pt-[10px]'>    المبادئ والاساسيات التحليل الفني</h1>

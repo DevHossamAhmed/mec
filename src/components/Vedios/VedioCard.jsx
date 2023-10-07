@@ -23,7 +23,7 @@ import Img5 from '../../assets/images/img-5.png'
 const VedioCard = () => {
   return (
     <div className='pt-[35px] mb-[50px]'>
-         <div className='flex px-3 justify-between mb-[15px]'>
+         <div className='flex px-3 xl:px-0 justify-between mb-[15px]'>
             <h1 className='text-white text-[18px] xl:text-[20px] font-bold'>الفيديوهات     </h1>
 
 
@@ -56,7 +56,7 @@ const VedioCard = () => {
                 }
             }}
         >
-            <SwiperSlide className='px-3'>
+            <SwiperSlide className='px-3 xl:px-0'>
             <div className='bg-[#191a25] w-[250px] h-[200px]'>
             <iframe width="250" height="150" src="https://www.youtube.com/embed/rMmYdn7fBD4" title="أكاديمية مصرف الراجحي |  برنامج تأهيل الخريجين" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
                 <h1 className='text-white pr-[5px] pl-[5px] text-[14px] font-bold pt-[10px]'>    دورة الراجحي   </h1>

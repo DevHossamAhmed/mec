@@ -58,7 +58,7 @@ const Turns = () => {
                 }
             }}
         >
-            <SwiperSlide className='px-3'>
+            <SwiperSlide className='px-3 xl:px-0'>
             <div className='bg-[#191a25] w-[250px] '>
                 <Image src={Img1} alt='Img1' />
                 <h1 className='text-[#a0a3a7] pr-[15px] pb-[15px] pl-[15px] text-[16px] font-bold pt-[10px]'>    المبادئ والاساسيات التحليل الفني</h1>
