@@ -50,7 +50,7 @@ const Courses = () => {
 
             breakpoints={{
                 0:{
-                    slidesPerView:1.5 ,
+                    slidesPerView:1.25 ,
                     spaceBetween:10,
                 },
                 480:{
@@ -63,14 +63,14 @@ const Courses = () => {
                 },
                 1280:{
                     slidesPerView:4 ,
-                    spaceBetween:15,
+                    spaceBetween:10,
                 }
             }}
         >
-            <SwiperSlide className='px-3'>
-                <div className='bg-[#191a25] w-[100%] relative'>
+            <SwiperSlide className='px-2'>
+                <div className='bg-[#191a25] w-[300px] relative'>
                     <Image src={Img1} alt='Img1' className='imagcor' />
-                    <div className='absolute top-[235px] right-[35%] flex m-auto justify-center'>
+                    <div className='absolute top-[165px] right-[35%] flex m-auto justify-center'>
                         <Image src={Imge1} alt='Imge1' className='imgavatar' />
                         <div className='text-white w-[30px] h-[30px]
                         bg-gradient-to-l ml-3 mr-3 from-[#471fbc] via-[#6137ad] to-[#81559c] border-[#81559c]
@@ -93,9 +93,9 @@ const Courses = () => {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className='bg-[#191a25] w-[100%] relative'>
+                <div className='bg-[#191a25] w-[300px] relative'>
                     <Image src={Img1} alt='Img1' className='imagcor'/>
-                    <div className='absolute top-[235px] right-[35%] flex m-auto justify-center'>
+                    <div className='absolute top-[165px] right-[35%] flex m-auto justify-center'>
                         <Image src={Imge2} alt='Imge1' className='imgavatar' />
                         <div className='text-white w-[30px] h-[30px]
                         bg-gradient-to-l ml-3 mr-3 from-[#471fbc] via-[#6137ad] to-[#81559c] border-[#81559c]
@@ -118,9 +118,9 @@ const Courses = () => {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className='bg-[#191a25] w-[100%] relative'>
+                <div className='bg-[#191a25] w-[300px] relative'>
                     <Image src={Img1} alt='Img1' className='imagcor'/>
-                    <div className='absolute top-[235px] right-[35%] flex m-auto justify-center'>
+                    <div className='absolute top-[165px] right-[35%] flex m-auto justify-center'>
                         <Image src={Imge2} alt='Imge1' className='imgavatar' />
                         <div className='text-white w-[30px] h-[30px]
                         bg-gradient-to-l ml-3 mr-3 from-[#471fbc] via-[#6137ad] to-[#81559c] border-[#81559c]
@@ -143,9 +143,9 @@ const Courses = () => {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className='bg-[#191a25] w-[100%] relative'>
+            <div className='bg-[#191a25] w-[300px] relative'>
                     <Image src={Img1} alt='Img1' className='imagcor' />
-                    <div className='absolute top-[235px] right-[35%] flex m-auto justify-center'>
+                    <div className='absolute top-[165px] right-[35%] flex m-auto justify-center'>
                         <Image src={Imge1} alt='Imge1' className='imgavatar' />
                         <div className='text-white w-[30px] h-[30px]
                         bg-gradient-to-l ml-3 mr-3 from-[#471fbc] via-[#6137ad] to-[#81559c] border-[#81559c]
@@ -168,9 +168,9 @@ const Courses = () => {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className='bg-[#191a25] w-[100%] relative'>
+            <div className='bg-[#191a25] w-[300px] relative'>
                     <Image src={Img1} alt='Img1' className='imagcor' />
-                    <div className='absolute top-[235px] right-[35%] flex m-auto justify-center'>
+                    <div className='absolute top-[165px] right-[35%] flex m-auto justify-center'>
                         <Image src={Imge1} alt='Imge1' className='imgavatar' />
                         <div className='text-white w-[30px] h-[30px]
                         bg-gradient-to-l ml-3 mr-3 from-[#471fbc] via-[#6137ad] to-[#81559c] border-[#81559c]
@@ -193,9 +193,9 @@ const Courses = () => {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className='bg-[#191a25] w-[100%] relative'>
+            <div className='bg-[#191a25] w-[300px] relative'>
                     <Image src={Img1} alt='Img1' className='imagcor' />
-                    <div className='absolute top-[235px] right-[35%] flex m-auto justify-center'>
+                    <div className='absolute top-[165px] right-[35%] flex m-auto justify-center'>
                         <Image src={Imge1} alt='Imge1' className='imgavatar' />
                         <div className='text-white w-[30px] h-[30px]
                         bg-gradient-to-l ml-3 mr-3 from-[#471fbc] via-[#6137ad] to-[#81559c] border-[#81559c]
