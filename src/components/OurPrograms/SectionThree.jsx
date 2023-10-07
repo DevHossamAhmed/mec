@@ -62,7 +62,7 @@ const SectionThree = () => {
             <div className='bg-[#191a25] w-[250px] '>
                 <Image src={Img1} alt='Img1' />
                 <h1 className='text-[#a0a3a7] pr-[15px] pl-[15px] pb-[15px]  text-[16px] font-bold pt-[10px]'>    المبادئ والاساسيات التحليل الفني</h1>
-                <p className='text-white pr-[15px] pl-[15px] text-[16px] '>برامج السوق المالية</p>
+                <p className='text-white pr-[15px] pl-[15px] text-[12px] '>برامج السوق المالية</p>
                 <div className='flex w-full text-white pb-[15px] justify-between pr-[15px] pl-[15px] text-[15px] font-semibold pt-[10px]'>
                     <h2>ر.س <span className='font-bold'>1500</span></h2>
                     <h2 className='flex items-center gap-[8px] '>15 ابريل
@@ -75,7 +75,7 @@ const SectionThree = () => {
             <div className='bg-[#191a25] w-[250px] '>
                 <Image src={Img2} alt='Img1' />
                 <h1 className='text-[#a0a3a7] pr-[15px] pl-[15px] pb-[15px]  text-[16px] font-bold pt-[10px]'>    المبادئ والاساسيات التحليل الفني</h1>
-                <p className='text-white pr-[15px] pl-[15px] text-[16px] '>برامج السوق المالية</p>
+                <p className='text-white pr-[15px] pl-[15px] text-[12px] '>برامج السوق المالية</p>
                 <div className='flex w-full text-white pb-[15px] justify-between pr-[15px] pl-[15px] text-[15px] font-semibold pt-[10px]'>
                     <h2>ر.س <span className='font-bold'>1500</span></h2>
                     <h2 className='flex items-center gap-[8px] '>15 ابريل
@@ -88,7 +88,7 @@ const SectionThree = () => {
             <div className='bg-[#191a25] w-[250px] '>
                 <Image src={Img3} alt='Img1' />
                 <h1 className='text-[#a0a3a7] pr-[15px] pl-[15px] pb-[15px]  text-[16px] font-bold pt-[10px]'>    المبادئ والاساسيات التحليل الفني</h1>
-                <p className='text-white pr-[15px] pl-[15px] text-[16px] '>برامج السوق المالية</p>
+                <p className='text-white pr-[15px] pl-[15px] text-[12px] '>برامج السوق المالية</p>
                 <div className='flex w-full text-white pb-[15px] justify-between pr-[15px] pl-[15px] text-[15px] font-semibold pt-[10px]'>
                     <h2>ر.س <span className='font-bold'>1500</span></h2>
                     <h2 className='flex items-center gap-[8px] '>15 ابريل
@@ -101,7 +101,7 @@ const SectionThree = () => {
             <div className='bg-[#191a25] w-[250px] '>
                 <Image src={Img4} alt='Img1' />
                 <h1 className='text-[#a0a3a7] pr-[15px] pl-[15px] pb-[15px]  text-[16px] font-bold pt-[10px]'>    المبادئ والاساسيات التحليل الفني</h1>
-                <p className='text-white pr-[15px] pl-[15px] text-[16px] '>برامج السوق المالية</p>
+                <p className='text-white pr-[15px] pl-[15px] text-[12px] '>برامج السوق المالية</p>
                 <div className='flex w-full text-white pb-[15px] justify-between pr-[15px] pl-[15px] text-[15px] font-semibold pt-[10px]'>
                     <h2>ر.س <span className='font-bold'>1500</span></h2>
                     <h2 className='flex items-center gap-[8px] '>15 ابريل
@@ -114,7 +114,7 @@ const SectionThree = () => {
             <div className='bg-[#191a25] w-[250px] '>
                 <Image src={Img5} alt='Img1' />
                 <h1 className='text-[#a0a3a7] pr-[15px] pl-[15px] pb-[15px]  text-[16px] font-bold pt-[10px]'>    المبادئ والاساسيات التحليل الفني</h1>
-                <p className='text-white pr-[15px] pl-[15px] text-[16px] '>برامج السوق المالية</p>
+                <p className='text-white pr-[15px] pl-[15px] text-[12px] '>برامج السوق المالية</p>
                 <div className='flex w-full text-white pb-[15px] justify-between pr-[15px] pl-[15px] text-[15px] font-semibold pt-[10px]'>
                     <h2>ر.س <span className='font-bold'>1500</span></h2>
                     <h2 className='flex items-center gap-[8px] '>15 ابريل
@@ -127,7 +127,7 @@ const SectionThree = () => {
             <div className='bg-[#191a25] w-[250px]'>
                 <Image src={Img2} alt='Img1' />
                 <h1 className='text-[#a0a3a7] pr-[15px] pl-[15px] pb-[15px]  text-[16px] font-bold pt-[10px]'>    المبادئ والاساسيات التحليل الفني</h1>
-                <p className='text-white pr-[15px] pl-[15px] text-[16px] '>برامج السوق المالية</p>
+                <p className='text-white pr-[15px] pl-[15px] text-[12px] '>برامج السوق المالية</p>
                 <div className='flex w-full text-white pb-[15px] justify-between pr-[15px] pl-[15px] text-[15px] font-semibold pt-[10px]'>
                     <h2>ر.س <span className='font-bold'>1500</span></h2>
                     <h2 className='flex items-center gap-[8px] '>15 ابريل
