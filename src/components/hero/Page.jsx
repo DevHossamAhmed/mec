@@ -3,7 +3,7 @@ import Heroimg from '../../assets/images/banner1.png'
 import { Search } from './search'
 const Hero = () => {
   return (
-    <div className=' m-auto text-white items-center pt-[70px]'>
+    <div className=' m-auto text-white items-center pt-[60px] xl:pt-[10px]'>
         <div className='flex container m-auto gap-[180px] justify-between leading-[40px] mt-[10%] flex-col xl:flex-row '>
             <div className='text-center xl:text-right items-center justify-center m-auto'>
                 <h1 className='text-[30px] pt-10 xl:pt-0 pb-[18px] xl:text-[40px] font-bold'><span className='text-[#84589a] xl:text-[40px] font-bold text-[40px] '>أكبر</span> مكان </h1>
