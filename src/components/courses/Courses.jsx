@@ -32,7 +32,7 @@ import {BsStarFill , BsStarHalf} from 'react-icons/bs'
 const Courses = () => {
   return (
     <div className='pt-[35px] container m-auto mb-[30px]'>
-         <div className='flex px-3  justify-between mb-[15px]'>
+         <div className='flex px-3 xl:px-0  justify-between mb-[15px]'>
             <h1 className='text-white text-[16px] xl:text-[20px] font-bold'> الدورات القادمة </h1>
 
             <h2 className='flex items-center justify-end font-bold gap-1 text-[#f0b90b] '>عرض المزيد 
@@ -67,7 +67,7 @@ const Courses = () => {
                 }
             }}
         >
-            <SwiperSlide >
+            <SwiperSlide className='px-3 xl:px-0'>
                 <div className='bg-[#191a25] w-[320px] relative'>
                     <Image src={Img1} alt='Img1' className='imagcor' />
                     <div className='absolute top-[165px] right-[35%] flex m-auto justify-center'>
